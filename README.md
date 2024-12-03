@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:02-12-2024
+## Date:03-12-2024
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -32,7 +32,6 @@ Publish the website in the LocalHost.
 
 ## PROGRAM:
 ```
-
 <html>
 <head>
     
@@ -47,15 +46,15 @@ Publish the website in the LocalHost.
         }
         .background-image
         {   align-items: center;
-            width: 220%;
-            height: 270%;
+            width: 210%;
+            height: 260%;
         }
 
         .topic {
             position: absolute;
             top: 30px;
             left: 40px;
-            color: whitesmoke;
+            color:azure;
             font-style:italic;
             font-size: 20px;
 
@@ -66,7 +65,7 @@ Publish the website in the LocalHost.
             text-align: center;
             top: 150px;
             left: 150px;
-            color:rgb(0, 255, 94);
+            color:chartreuse;
             font-style:italic;
             font-size: 36px;
         }
@@ -78,14 +77,14 @@ Publish the website in the LocalHost.
             top: 300px;
             left: 40px;
             font-weight:bolder;
-            color:greenyellow;
+            color:hotpink;
         }
 
         .edition {
             position: absolute;
             bottom: -450px;
             left: 40px;
-            color:darkkhaki;
+            color:orangered;
             font-style:oblique;
             font-size: 20px
         }
@@ -102,15 +101,15 @@ Publish the website in the LocalHost.
             right: -200px;
             font-style:oblique ;
             font-size: 20px;
-            color:chartreuse;
+            color:azure;
         }
 
         .Name {
             position: absolute;
             bottom: -480px;
             right: -260px;
-            color:darkgoldenrod;
-            font-style:oblique;
+            color:azure;
+            font-style:italic;
             font-size: 25px;
             
         }
@@ -119,8 +118,8 @@ Publish the website in the LocalHost.
 </head>
 <body>
     <div class="container">
-        <img  class="photo" src="babu.png" >
-        <img class="background-image" src="image 2.jpg">
+        <img  class="photo" src="photo.jpg" >
+        <img class="background-image" src="web back ground.jpg">
         <p class ="topic"> EXPERTS INSIGHT</p>
         <h1 class="main-title" >WEB DESING FRAMEWORKS</h1>
         <h2 class="subtitle"> FUTURE OF WEB DEVELOPMENT</h2>
@@ -131,8 +130,10 @@ Publish the website in the LocalHost.
 </body>
 </html>
 
+
 ```
 ## OUTPUT:
-![alt text](output1.png)
+
+![alt text](<Screenshot (66).png>)
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
